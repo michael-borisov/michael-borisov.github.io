@@ -32,6 +32,10 @@
         eventer(messageEvent, function (e) {
             console.log("message", e.data);
         });
+
+        window.document.addEventListener('alphavoiceVideoPause', function(){
+          console.log("alphavoiceVideoPause");
+        }, false)
   </script>
   </body>
 
